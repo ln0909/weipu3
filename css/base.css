@@ -1,0 +1,135 @@
+*{padding: 0;margin: 0;}
+p,h1,h2,h3,h4,h5,h6,ul,dl,dd,ol{list-style: none;}
+a{color: #666;text-decoration: none;}
+body{background-color: #f5f5f5;}
+.pd-0{padding: 0;}
+.mg-0{margin: 0;}
+.mgtb-1{margin: 1em 0;}
+.color-bg{background-color: #fff;box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);}
+/*logo*/
+.logo-img{padding-left: 1em;box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
+
+.content-body{margin-left: 1em;}
+/*左部分*/
+.pd-2{padding: 2em;}
+/*版本*/
+
+.edition>ul>li{margin-left: 0.8em;position: relative;}
+.li-img>i{display: none}
+.li-img>i.icon-i{display: block;position: absolute;}
+.edition>ul>li>a{text-decoration: none;}
+.edition>ul>li>p{text-align: center;font-size: 0.75em;color: #1a1a1a;text-decoration: none;padding-top: 1em;}
+/*行一*/
+.detection-type{border: 1px #ced4da solid;padding: 0.6em 2em 0.6em 0.5em;background-color: #f2f2f2;}
+.detection-type>a{padding-left: 1em;color: #1572d7;text-decoration: none;}
+/*行二 行三*/
+.input-group-text,.form-control{background-color: #f2f2f2;padding: 0.6em 1.5em;}
+.input-group-text{font-size: 0.875em;}
+.text-cue{color: #9d9d9d;font-size: 0.8em;}
+/*行四*/
+.tab-list>li>a{font-size: 0.875em;padding: 0.6em 2em}
+.fw-a{font-weight: bold;}
+
+/*上传*/
+.custom-file-d{position:relative;display:inline-block;margin-bottom: 2em;}
+.form-control{margin-right: 1em;font-size: 0.8rem;}
+.bootstrap-filestyle>input[type="text"]{padding: 0.6em 8em;}
+.bootstrap-filestyle>span.group-span-filestyle>label{padding: 1em 3.2em;color: #666;font-size: 0.875em;border: 1px #ced4da solid;
+    background: -webkit-linear-gradient(#FFF, #D7D7D7);
+    background: -o-linear-gradient(#FFF, #D7D7D7);
+    background: -moz-linear-gradient(#FFF, #D7D7D7);
+    background: linear-gradient(#FFF, #D7D7D7);
+}
+/*提交按钮*/
+.btn{padding: 0.6em 4em;font-size: 1.1em;}
+.btn-primary{background-color: #ff7a1a;border-color: #ff7a1a;font-weight: bold;}
+.btn-primary:hover{background-color: #fa6901;border-color: #fa6901;}
+
+/*右部分*/
+.flow-list{border-bottom: 1px #e7e7e7 solid;padding: 1em 0;}
+.flow-list>dt,.problem>dt,.flow-iterature>dt{font-weight: normal;padding-bottom: 0.5em;}
+.flow-list>dd,.problem>dd>a,.flow-iterature>dd>a{font-size: 0.8em;color: #727272;}
+a:not([href]):not([tabindex]){color: #727272;}
+
+/*支付弹窗*/
+.pay-title{background-color: #e5e5e5;}
+.pay-title>p{padding: 0.8em 0 0 1em;display: inline-block;font-size: 0.875em;}
+.pay-title>button[type="button"]{padding: 0.3em 0.6em;}
+.table-bordered th{font-size: 0.875em;text-align: center;font-weight: normal;padding: 0.8rem;}
+.table-bordered td{padding-left: 1.6em;}
+.table-bordered td>span{color: #f33d0c;padding-right: 2em;font-weight: bold;}
+.table-color{background-color: #efefef;}
+.order-number>a{background-color: #ff6b1a;color: #fff;padding: 0.2em 1em;border-radius: 2em;margin-left: 1em;font-size: 0.75em;text-decoration: none;}
+.order-text{font-size: 0.75em;padding: 1.2em 0;}
+.order-text>span{color: #f33d0c;}
+.input-order1{padding: 1em 1.5em;font-size: 0.875em;font-weight: bold;}
+.fs-p{font-size: 0.75em;color: #939393;padding-top: 1em;}
+.go-pay{text-align: center;}
+.go-pay>p>span{color: #f33d0c;font-weight: 600;}
+.go-pay>input[type="submit"]{font-size: 0.875em;}
+.spare-order{padding-right:1.5rem!important}
+.wx-bg{background-color: #fafafa;border: 1px #eaeaea solid;padding: 2em;border-left: 0;border-right: 0;}
+.wx-bg>p{font-size: 0.875em;}
+.wx-bg>span{font-size: 0.75em;color: #666;}
+.left-wx{margin-left: 4em;}
+.left-wx,.right-wx{display: inline-block;}
+.wx-title{font-size: 1.375em;color: #0b9d6d;padding: 1em 0;}
+.left-wx>div{padding-top: 1em;}
+.left-wx>div>p{font-size: 0.75em;line-height: 2;margin-bottom: 0;}
+.right-wx{float: right;}
+
+
+
+
+
+
+/*在小于576像素的屏幕里,这里的样式才生效*/
+@media (max-width: 575.98px) {
+    .content-body{margin-left: 0;}
+    /*左部分*/
+    .pd-2{padding: 1em;}
+    /*版本*/
+    .edition>ul>li{width: 28%;}
+    /*上传*/
+    .bootstrap-filestyle>input[type="text"]{padding: 0.6em 2em;}
+    .bootstrap-filestyle>span.group-span-filestyle>label{padding: 1em 2em;}
+    .go-sub{text-align: center;}
+    /*右部分*/
+    .right-list{display: none;}
+    /*支付弹窗*/
+    .order-number>img{width: 46%}
+    .order-number>a{padding: 0.2em 0.6em;margin-left: 0.2em;}
+    .spare-order{padding-right:0!important}
+    .pay-img{width: 42%}
+    .left-wx{margin-left: 2em;}
+    .right-wx{display: none;}
+}
+
+/*在576和768像素的屏幕里,这里的样式才生效*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*版本*/
+    .edition>ul>li{width: 30%;}
+    /*右部分*/
+    .right-list{display: none;}
+    /*微信支付*/
+    .left-wx{width: 42%;margin-left: 2em;}
+    .right-wx{width: 50%;margin-top: 4em;}
+}
+
+/*在768和992像素的屏幕里,这里的样式才生效*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*左部分*/
+    .pd-2{padding: 1em;}
+    /*版本*/
+    .edition>ul>li{width: 30%;}
+    /*微信支付*/
+    .left-wx{width: 40%;margin-left: 2em;}
+    .right-wx{width: 50%;margin-top: 4em;}
+}
+
+/*在992和1200像素的屏幕里,这里的样式才生效*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*版本*/
+    .edition>ul>li{width: 30%;}
+
+}
